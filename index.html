@@ -28,7 +28,7 @@
 
   <body class="body">
     <header class="header container">
-      <div class=" container-header ">
+      <div class=" container-header container ">
         <nav class="header-nav">
           <a class="logo link" href="./index.html"
             >Web<span class="studio">Studio</span></a
@@ -55,6 +55,61 @@
             </li>
           </ul>
         </address>
+        <button type="button" data-menu-open class="menu-open-btn">
+          <svg width="29.54px" height="18.62px">
+            <use class="menu-open-svg"   href="./images/symbol-defs.svg#icon-Vector2"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu" data-menu>
+        <button type="button " data-menu-close class="menu-close-btn">
+          <svg width="8" height="8">
+            <use class="menu-close-svg"   href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <ul class="mob-list list">
+          <li class="mob-list-items">Studio</li>
+          <li class="mob-list-items">Portfolio</li>
+          <li class="mob-list-items">Contacts</li>
+        </ul>
+        <ul class="mob-contacts">
+          <li class="mob-tel">+11 (000) 111-11-11</li>
+          <li class="mob-email">info@devstudio.com</li>
+        </ul>
+        <ul class="mob-soc-list">
+          <li class="mob-soc-content">
+            <a href="" class="mob-soc-link link">
+                <svg width="24" height="24" class="mob-soc-icon">
+                  <use
+                    href="./images/symbol-defs.svg#icon-instagram"
+                      ></use>
+                </svg>
+            </a>
+          </li>
+          <li class="mob-soc-content">
+            <a href="" class="mob-soc-link link">
+                <svg width="24" height="24" class="mob-soc-icon">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+            </a>
+          </li>
+          <li class="mob-soc-content">
+            <a href="" class="mob-soc-link link">
+                <svg width="24" height="24" class="mob-soc-icon">
+                  <use
+                    href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+            </a>
+          </li>
+          <li class="mob-soc-content">
+            <a href="" class="mob-soc-link link">
+                <svg width="24" height="24" class="mob-soc-icon">
+                  <use
+                    href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -70,15 +125,15 @@
       <!--section1 end-->
       <!-- section2-->
       <section class="features">
-        <div class=" container-features">
+        <div class=" container-features container">
           <h2 class="visually-hidden">Features</h2>
             <ul class="list">
               <li class="feature-item">
-                <!-- <div class="feature-item-box">
+                <div class="feature-item-box">
                   <svg class="feature-svg" width="64" height="64">
                     <use href="./images/symbol-defs.svg#icon-antenna"></use>
                   </svg>
-                </div> -->
+                </div>
                 <h3 class="title">Strategy</h3>
                 <p class="title-txt">
                   Our goal is to identify the business problem to walk away with
@@ -86,11 +141,11 @@
                 </p>
               </li>
               <li class="feature-item">
-                <!-- <div class="feature-item-box">
+                <div class="feature-item-box">
                   <svg class="feature-svg" width="64" height="64">
                     <use href="./images/symbol-defs.svg#icon-clock"></use>
                   </svg>
-                </div> -->
+                </div>
                 <h3 class="title">Punctuality</h3>
                 <p class="title-txt">
                   Bring the key message to the brand's audience for the best
@@ -98,11 +153,11 @@
                 </p>
               </li>
               <li class="feature-item">
-                <!-- <div class="feature-item-box">
+                <div class="feature-item-box">
                   <svg class="feature-svg" width="64" height="64">
                     <use href="./images/symbol-defs.svg#icon-diagram"></use>
                   </svg>
-                </div> -->
+                </div>
                 <h3 class="title">Diligence</h3>
                 <p class="title-txt">
                   Research and confirm brands that present the strongest digital
@@ -110,11 +165,11 @@
                 </p>
               </li>
               <li class="feature-item">
-                <!-- <div class="feature-item-box">
+                <div class="feature-item-box">
                   <svg class="feature-svg" width="64" height="64">
                     <use href="./images/symbol-defs.svg#icon-astronaut"></use>
                   </svg>
-                </div> -->
+                </div>
                 <h3 class="title">Technologies</h3>
                 <p class="title-txt">
                   Design practice focused on digital experiences. We bring forth
@@ -127,7 +182,7 @@
       </section>
       <!--section2 end-->
       <!--section3-->
-      <!-- <section class="section-img">
+      <section class="section-img">
         <div class="container container-img">
           <h2 class="section-title">What are we doing</h2>
           <ul class="list">
@@ -142,7 +197,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--section3 end-->
       <section class="section-4 section">
         <div class="container container-team">
@@ -344,7 +399,7 @@
         </div>
       </section>
 
-      <section class="customers ">
+      <section class="customers container">
         <div class="container">
           <h2 class="section-title">Customers</h2>
           <ul class="customers-list list">
@@ -395,7 +450,7 @@
       </section>
     </main>
     <footer class="footer ">
-      <div class=" container-footer">
+      <div class=" container-footer container">
         <div class="container-footer-txt">
           <a class="logo link" href="./index.html"
             >Web<span class="footer-studio">Studio</span></a
@@ -551,5 +606,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
