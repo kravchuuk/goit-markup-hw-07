@@ -423,6 +423,7 @@ ul {
 }
 
 .mob-menu {
+  display: block;
   max-width: 786px;
   position: fixed;
   top: 0;
@@ -521,6 +522,18 @@ ul {
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list .images {
+  background: linear-gradient(
+      0deg,
+      rgba(77, 90, 229, 0.1),
+      rgba(77, 90, 229, 0.1)
+    ),
+    url(photo-1545235617-7a424c1a60cc.jpg);
+  background-blend-mode: soft-light, normal;
+  /* CORNFLOWER */
+
+  border: 1px solid #e7e9fc;
 }
 .feature-item-box {
   display: none;
