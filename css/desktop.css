@@ -85,7 +85,8 @@
   .header .link{
     padding: 24px 0;
     display: block;
-    margin-left: auto;
+    line-height: 24px;
+    margin-right: auto;
   }
   
   .customers-list{
