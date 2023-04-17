@@ -30,6 +30,9 @@
   .feature-svg {
     display: block;
   }
+  .feature-item{
+    width: 264px;
+  }
   .feature-item .title-txt {
     font-size: 16px;
     font-weight: 400;
@@ -56,13 +59,13 @@
   }
   .hero {
     width: 1158px;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 600px;
   }
 
   .list-examples {
@@ -81,14 +84,16 @@
   }
   .header .link{
     padding: 24px 0;
+    display: block;
+    margin-left: auto;
   }
+  
   .customers-list{
     gap: 72px 24px;
   }
   .header {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
   .current::after {
     display: block;
