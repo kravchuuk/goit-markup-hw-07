@@ -580,7 +580,6 @@ ul {
 
   .header-nav {
     margin-right: auto;
-    margin-left: 16px;
   }
   .header-contacts {
     display: block;
@@ -594,6 +593,7 @@ ul {
   .input-email {
     min-width: 320px;
     max-width: 396px;
+    width: 100%;
   }
   .menu.list .current {
     display: none;
@@ -679,6 +679,7 @@ ul {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
+  min-width: 320px;
 }
 
 .hero {

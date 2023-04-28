@@ -15,6 +15,10 @@
   --color-grey: #2e2f42;
   --color-white: #ffffff;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 @media screen and (max-width: 1199px) {
   .container-hero .container-features,
@@ -34,7 +38,6 @@
   }
   
   .container-features.container {
-    max-width: none;
     margin: 0;
   }
 }
