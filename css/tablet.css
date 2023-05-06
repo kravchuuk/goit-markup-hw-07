@@ -30,6 +30,10 @@ img {
   .container {
     width: 582px;
   }
+  .container-features.container {
+  min-width: 768px;
+}
+
   .mob-menu {
     display: none;
   }
@@ -37,15 +41,8 @@ img {
     display: block;
   }
   
-  .container-features.container {
-    margin: 0;
-  }
+  
 }
-
-
-
-
-
 
   .container-footer-txt {
     margin-bottom: 72px;

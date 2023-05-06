@@ -1,7 +1,9 @@
-@media screen and (min-width: 1200px) {
-}
-
-@media only screen and (min-width: 766px) {
-}
-@media screen and (min-width: 480px) {
-}
+<picture>
+  <source srcset="image-mobile-1x.jpg 1x,
+                  image-mobile-2x.jpg 2x" 
+          media="(max-width: 767px)">
+  <source srcset="image-tablet-2x.jpg 2x,
+                  image-desktop-3x.jpg 3x" 
+          media="(min-width: 768px)">
+  <img src="image-desktop-3x.jpg" alt="Адаптивне зображення">
+</picture>

@@ -73,7 +73,9 @@ img {
     opacity: 1;
   }
 }
-
+.item-wrap {
+  margin-top: 32px;
+}
 .list {
   list-style: none;
 }
