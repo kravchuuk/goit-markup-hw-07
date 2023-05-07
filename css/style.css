@@ -442,6 +442,7 @@ ul {
   padding-right: 24px;
   padding-left: 40px;
 }
+
 .mob-list-itemss {
   color: var(--color-navy-blue);
 }
@@ -593,7 +594,6 @@ ul {
     align-items: center;
   }
   .input-email {
-    min-width: 320px;
     max-width: 396px;
     width: 100%;
   }
@@ -1066,15 +1066,13 @@ ul {
 
 .modal {
   position: absolute;
-  max-width: 450px;
-  max-height: 609px;
-  padding: 40px;
 
+  padding: 40px;
+  max-width: 450px;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
-  height: 584px;
+  width: 95%;
   padding: 72px 24px 24px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1239,7 +1237,6 @@ ul {
   fill: var(--color-iris);
 }
 .input-email {
-  margin-bottom: 16px;
   height: 40px;
   padding-left: 16px;
   background-color: #2e2f42;
@@ -1250,11 +1247,13 @@ ul {
   line-height: 2em;
   letter-spacing: 0.02em;
   color: var(--color-white);
+  margin-bottom: 16px;
 }
 
 .email-input {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .email-input-title {
   color: var(--color-white);
@@ -1272,6 +1271,8 @@ ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 .submit {
