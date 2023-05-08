@@ -149,10 +149,6 @@ ul {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header .logo {
-  margin-right: 76px;
-}
-
 /* .header .link {
   display: block;
 } */
@@ -503,7 +499,7 @@ ul {
 
 .mob-soc-list {
   display: flex;
-  gap: 56px;
+  gap: 40px;
 }
 .menu-close-btn {
   position: absolute;
