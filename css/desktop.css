@@ -167,7 +167,7 @@
   .email-input-form {
     gap: 24px;
     display: flex;
-    flex-direction: row;
+    
   }
   .email-input-title {
     display: inline-block;
