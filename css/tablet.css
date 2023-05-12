@@ -79,14 +79,26 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
-  .hero{
-            background-image: linear-gradient(
+  @media only screen and (min-width: 429px) and (max-width: 767px) {
+  .hero-section {
+    background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office\ 1.jpg);}
+      url(../images/pepole-oficetab@1.jpg);
   }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/pepole-oficetab@2x.jpg);
+    }
+  }
+}
   .footer {
     text-align: left;
   }

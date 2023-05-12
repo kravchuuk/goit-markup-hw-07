@@ -552,7 +552,7 @@ ul {
 .feature-item-box {
   display: none;
 }
-@media screen and (min-device-pixel-ratio: 2),
+/* @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .hero {
@@ -562,7 +562,7 @@ ul {
       ),
       url(../images/people-office\ 1.jpg);
   }
-}
+} */
 @media (max-width: 767px) {
   .container-footer {
     display: flex;
@@ -691,7 +691,7 @@ ul {
   min-width: 320px;
 }
 
-.hero {
+/* .hero {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -700,7 +700,28 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+} */
+@media only screen and (max-width: 428px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-oficemob@1.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-oficemob@2x.jpg);
+    }
+  }
 }
+
 .feature-svg {
   display: none;
 }
