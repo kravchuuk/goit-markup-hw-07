@@ -66,8 +66,8 @@
     background-position: center;
     background-size: cover;
   }
-@media only screen and (min-width: 768px) {
-  .hero-section {
+@media only screen and (min-width: 1199px) {
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -82,7 +82,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-officedesktop@2x.jpg);
+        url(../images/people-officedesktop@2x.jpg 2х) ;
     }
   }
 }
