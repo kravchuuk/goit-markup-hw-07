@@ -79,7 +79,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  @media only screen and (min-width: 768px)  {
+  @media only screen and (min-width:768px)  {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),

@@ -254,6 +254,13 @@ ul {
   margin: 0 auto;
   padding: 112px 0;
   text-align: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 112px;
+  padding-bottom: 112px;
+  text-align: center;
 }
 
 .hero-title {
@@ -701,7 +708,7 @@ ul {
   background-position: center;
   background-size: cover;
 } */
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
